@@ -34,6 +34,8 @@ http://support.simpledns.com/kb/a196/how-to-delegate-a-sub-domain-to-other-dns-s
 
 find all alternative services as cloudflare and list them in issues so they will be added.
 
+14) https://github.com/vulnz/cloudflare/tree/master/cloudsub Simple Subdomain IP resolver
+
 Example of **OK** header from cloudflare:
 
 (lol.com)
