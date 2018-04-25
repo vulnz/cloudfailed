@@ -36,6 +36,8 @@ find all alternative services as cloudflare and list them in issues so they will
 
 14) https://github.com/vulnz/cloudflare/tree/master/cloudsub Simple Subdomain IP resolver
 
+15) https://github.com/pirate/sites-using-cloudflare Check in this list CloudBleed
+
 Example of **OK** header from cloudflare:
 
 (lol.com)
