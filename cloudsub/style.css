@@ -1,0 +1,87 @@
+
+div#menu2{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  height:320px
+}
+
+
+
+div#menu4{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  height:640px
+}
+
+h1{
+  color: orange;
+  font-size: 13px;
+  text-indent: 13px;
+}
+
+
+a { color:#000; }
+h2 { margin-bottom: 20px; color: #133141; }
+input, textarea { padding: 10px; border: 1px solid #E5E5E5; width: 200px; color: #969DD3; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px; -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px; -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px; }
+textarea { width: 400px; height: 150px; max-width: 400px; line-height: 18px; }
+textarea:hover, input:focus, textarea:focus { border-color: 1px solid #C9C9C9; box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px; -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px; -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px; } .form label { color:#ecf0f1; font-size: 30px; margin-bottom: 10px; display: block; } .submit input { width: 100px; height: 40px; background-color: #133141; color: #FFF; border-radius: 3px; moz-border-radius: 3px; -webkit-border-radius: 3px; }
+input:hover{
+padding: 10px;
+border: 1px solid #E5E5E5;
+color: #7378A0;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+ }
+
+ .animated {
+    background-repeat: no-repeat;
+    background-position: left top;
+    -webkit-animation-duration: 2s;
+    animation-duration: 4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+ }
+
+ @-webkit-keyframes bounceInDown {
+    0% {
+       opacity: 0;
+       -webkit-transform: translateY(-2000px);
+    }
+    60% {
+       opacity: 1;
+       -webkit-transform: translateY(30px);
+    }
+    80% {
+       -webkit-transform: translateY(-10px);
+    }
+    100% {
+       -webkit-transform: translateY(0);
+    }
+ }
+
+ @keyframes bounceInDown {
+    0% {
+       opacity: 0;
+       transform: translateY(-2000px);
+    }
+    60% {
+       opacity: 1;
+       transform: translateY(30px);
+    }
+    80% {
+       transform: translateY(-10px);
+    }
+    100% {
+       transform: translateY(0);
+    }
+ }
+
+ .bounceInDown {
+    -webkit-animation-name: bounceInDown;
+    animation-name: bounceInDown;
+ }
