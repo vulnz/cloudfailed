@@ -1,7 +1,6 @@
 
 **This is Full Algorithm on Detection of Real IP behind Cloudflare**
 
-**12 steps**
 ![Cloudflare Failed](https://image.ibb.co/c1vw6x/cloudflare.png)
 1) subdomain bruteforce ( https://github.com/aboul3la/Sublist3r ) and https://github.com/appsecco/bugcrowd-levelup-subdomain-enumeration &
 https://github.com/Elsfa7-110/Sfa7sub
